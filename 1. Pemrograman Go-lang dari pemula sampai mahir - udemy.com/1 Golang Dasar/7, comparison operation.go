@@ -16,5 +16,4 @@ func main() {
 	fmt.Println("Ada juga >= <= !=")
 	comparison = angka1 != uint(angka2)
 	fmt.Println("apakah angka1 sama dengan angka2 =", comparison)
-
 }

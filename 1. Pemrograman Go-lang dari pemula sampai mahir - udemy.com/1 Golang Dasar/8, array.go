@@ -16,4 +16,10 @@ func main() {
 	for _, value := range list_of_students {
 		fmt.Println("Nama : ", value)
 	}
+	fmt.Println("Panjang array : ", len(list_of_students))
+	list_of_programing_language := [5]string{"Python", "Golang", "Javascript", "Ruby", "Rust"}
+	fmt.Println("List of Programing language =", list_of_programing_language)
+	for _, languange := range list_of_programing_language {
+		fmt.Println("Name :", languange)
+	}
 }
